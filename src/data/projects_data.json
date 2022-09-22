@@ -2,8 +2,13 @@
     {
         "title": "Awesome Profile Cards",
         "image": "http://localhost:3000/assets/awesome_ok.png",
-        "tools": "TOOLS: Javascript, HTML, CSS",
-        "description": ""
+        "tools": "TOOLS: Javascript, HTML, SASS",
+        "description1":"Team Project",
+        "description2":"Web Layout - Responsive - Mobile First",
+        "description3":"Web Features using Javascript.",
+        "description 4": "Creation of you own profile card. Drop-down menu to personalize styles of the card, form to complete with your personal information, share button to share your card in twitter ",
+        "description 5": "Agile method"
+     
 
     },
     {
@@ -15,8 +20,16 @@
     {
         "title": "Duckies",
         "image": "http://localhost:3000/assets/duckies_ok.png",
-        "tools":"TOOLS: HTML, CSS",
-        "description":""
+        "image_detail1": "http://localhost:3000/assets/duckies1.png",
+        "image_detail2": "http://localhost:3000/assets/duckies2.png",
+        "image_detail3": "http://localhost:3000/assets/duckies3.png",
+        "image_detail4": "http://localhost:3000/assets/duckies4.png",
+        "image_detail5": "http://localhost:3000/assets/duckies5.png",
+        "tools":"TOOLS: HTML, CSS, BEM",
+        "description1":"Team Project",
+        "description2":"Web Layout - Responsive - Mobile First",
+        "description3":"Web developmentintroducing a Frontend developers team, and memeber description. Includes contact form to get in touch.",
+        "description 4": "Agile method"
     },
     {
         "title": "Owen Wow",
