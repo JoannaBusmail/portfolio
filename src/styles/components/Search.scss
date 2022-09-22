@@ -1,0 +1,44 @@
+@import '../core/Variables.scss';
+
+
+.search__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+.title_projects{
+    padding:30px;
+    font-family: $font-about;
+    font-size: 1.4em;
+    font-weight: 700;
+  }
+  .input__container{
+    display:flex;
+        .filterInput_title{
+        font-family: $font-about;
+        font-size: 1em;
+        margin-right: 10px;
+}
+        .filterInput_value{
+         width: 200px;
+         height: 25px;
+         border-radius: 15px;
+         padding: 10px;
+         font-family: $font-about;
+         border: none;
+         position: relative;
+         top: -3px;
+     
+         box-shadow: 0 1px 7px 0 #99a8b3, 0 1px 3px 0 #ffff;
+
+}
+}
+}
+
+.not_found {
+    text-align: center;
+    font-family: $font-about;
+    font-size: 1em;
+    padding: 15px;
+}
+  

@@ -1,0 +1,39 @@
+[
+    {
+        "title": "Awesome Profile Cards",
+        "image": "http://localhost:3000/assets/awesome_ok.png",
+        "tools": "TOOLS: Javascript, HTML, CSS",
+        "description": ""
+
+    },
+    {
+        "title": "Refactorización APC",
+        "image": "http://localhost:3000/assets/refact_ok.png",
+        "tools":"TOOLS: React.Js, HTML, CSS",
+        "description": ""
+    },
+    {
+        "title": "Duckies",
+        "image": "http://localhost:3000/assets/duckies_ok.png",
+        "tools":"TOOLS: HTML, CSS",
+        "description":""
+    },
+    {
+        "title": "Owen Wow",
+        "image": "http://localhost:3000/assets/owen_ok.png",
+        "tools":"TOOLS: React.Js, HTML, CSS",
+        "description":""
+    },
+    {
+        "title": "Shop Shop",
+        "image": "http://localhost:3000/assets/buy_ok.png",
+        "tools":"TOOLS: HTML, CSS",
+        "description": ""
+    },
+    {
+        "title": "Retro Games",
+        "image": "http://localhost:3000/assets/games_ok.png",
+        "tools":"TOOLS: Javascript, HTML, CSS",
+        "description":   ""  
+    }
+]

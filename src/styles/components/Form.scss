@@ -1,0 +1,88 @@
+@import '../core/Variables.scss';
+.form__border{
+border-style: none;
+//text-align: center;
+.form__title{
+    padding:30px;
+    font-family: $font-about;
+    font-size: 1.4em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.form__container{
+    max-width:400px;
+    display: flex;
+    flex-direction: column;
+    //justify-content: flex-start;
+    //align-items: center;
+    gap:15px;
+    //border: 2px solid $dark_blue;
+    border-radius: 15px;
+    margin: 20px auto 60px auto;
+    padding:35px;
+    background-color: $dark_blue;  
+    box-shadow: 2px 4px 8px 0 $cyan, 0 2px 4px 0 #ffff;;
+    //background-image: linear-gradient(to right, $dark_blue 0%,  $pink  100%);
+    @media (min-width: 768px) {
+      max-width: 600px;
+      }
+      @media (min-width: 1200px) {
+        max-width: 750px;
+        }
+
+    .input__container{
+      display: flex;
+      flex-direction: column;
+     
+    
+    .label{
+        font-family: $font-about;
+        color: #ffff;
+        margin: 10px auto 5px 20px;
+        @media (min-width: 1200px) {
+            margin: 10px auto 10px 90px;
+            }
+        
+
+    }
+    .input{
+        width: 300px;
+        height: 35px;
+        border-radius: 15px;
+        margin: 5px auto 10px auto;
+        font-family: $font-about;
+        padding-left: 15px;
+        border: none;
+        @media (min-width: 768px) {
+            width: 500px;
+            }
+          
+
+    }
+
+    .textarea{
+        height: 150px;
+        padding-top: 15px;
+      
+    }
+
+   
+    .btn_submit{
+        width: 100px;
+        height: 35px;
+        margin: 5px auto 10px auto;
+        font-family: $font-about;
+        font-weight: 700;
+        font-size: 1em;
+        color:#ffff;
+        border:none;
+        border-radius: 15px;
+        background-image: linear-gradient(to right, $pink 0%,  $cyan  100%);
+    }
+
+}
+   
+}
+
+}
