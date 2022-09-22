@@ -1,11 +1,17 @@
 import '../styles/App.scss';
+
 import { useState } from 'react';
+import { Routes, Route, Link } from 'react-router-dom';
+import { matchPath, useLocation } from 'react-router';
+
 import About from './About';
 import Header from './Header';
 import Search from './Search';
 import ListProjects from './ListProjects';
 import Form from './Form';
 import Footer from './Footer';
+import ProjectDetail from './ProjectDetail';
+
 import DataProjects from '../data/projects_data.json';
 import lsObject from '../services/ls';
 
@@ -41,8 +47,8 @@ function App() {
   });
 
   const renderDataProject = () => {
-    return filter.map((projects, index) => {
-      return <ListProjects key={index} projects={projects} />;
+    return filter.map((projects, id) => {
+      return <ListProjects key={id} projects={projects} />;
     });
   };
 
@@ -55,17 +61,47 @@ function App() {
       );
     }
   };
+
+  const { pathname } = useLocation();
+  console.log(pathname);
+  const dataPath = matchPath('/project/:projectId', pathname);
+  console.log(dataPath);
+
+  const projectId = dataPath !== null ? dataPath.params.projectId : null;
+  const projectFound = dataProjects.find((project) => project.id === projectId);
+
+  console.log({ projectId, projectFound, dataProjects });
+
   return (
     <>
-      <Header />
-      <main>
-        <About />
-        <Search handleSearchTool={handleSearchTool} searchTools={searchTools} />
-        {notFound()}
-        <ul className='list-projects_container'> {renderDataProject()}</ul>
-      </main>
-      <Form handleInputForm={handleInputForm} formInputs={formInputs} />
-      <Footer />
+      <Routes>
+        <Route
+          path='/'
+          element={
+            <>
+              <Header />
+              <main>
+                <About />
+                <Search
+                  handleSearchTool={handleSearchTool}
+                  searchTools={searchTools}
+                />
+                {notFound()}
+                <ul className='list-projects_container'>
+                  {' '}
+                  {renderDataProject()}
+                </ul>
+              </main>
+              <Form handleInputForm={handleInputForm} formInputs={formInputs} />
+              <Footer />
+            </>
+          }
+        />
+        <Route
+          path='/project/:projectId'
+          element={<ProjectDetail project={projectFound} />}
+        />
+      </Routes>
     </>
   );
 }

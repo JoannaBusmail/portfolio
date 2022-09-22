@@ -38,6 +38,9 @@
             border-radius: 15px;
    
         }
+        .link{
+            text-decoration: none;
+        }
         .item_btn{
             width: 200px;
             height: 30px;
@@ -47,6 +50,7 @@
             font-family: $font-about;
             font-weight: 700;
             margin: 10px auto 15px auto;
+            cursor: pointer;
         
         }        
          .btn-grad {
