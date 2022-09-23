@@ -8,8 +8,7 @@ const Search = (props) => {
 
   return (
     <>
-      <section>
-        <a name='projects'></a>
+      <section id='projects'>
         <div className='search__container'>
           <h2 className='title_projects'>Projects</h2>
           <div className='input__container'>

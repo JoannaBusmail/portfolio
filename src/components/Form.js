@@ -10,8 +10,7 @@ const Form = (props) => {
   };
   return (
     <>
-      <section>
-        <a name='contact'></a>
+      <section id='contact'>
         <fieldset className='form__border'>
           <legend className='form__title'>Contact</legend>
           <form

@@ -2,8 +2,7 @@ import '../styles/components/About.scss';
 
 const About = () => {
   return (
-    <section>
-      <a name='about'></a>
+    <section id='about'>
       <div className='container_img'>
         <div className='container_about'>
           <h2 className='about_title about_title--one'>Hi!</h2>

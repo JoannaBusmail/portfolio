@@ -16,19 +16,20 @@
         &--link{
         text-decoration: none;
         font-family: $font-about;
-        font-size: 1em;
+        font-size: 0.8em;
         font-weight: 700;
+        cursor: pointer;
         @media (min-width: 768px) {
-            font-size: 1.3em;
+            font-size: 1em;
           }
         
     }
     &--img{
-        width:140px;
+        width:120px;
         position: relative;
         top:-50px;
         @media (min-width: 768px) {
-            width: 180px;
+            width: 140px;
           }
     }
     }

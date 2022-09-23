@@ -97,6 +97,7 @@ function App() {
             </>
           }
         />
+
         <Route
           path='/project/:projectId'
           element={<ProjectDetail project={projectFound} />}

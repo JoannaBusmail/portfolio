@@ -2,6 +2,8 @@ import '../styles/components/Header.scss';
 import Logo from '../images/Logo.png';
 import LogoFooter from '../images/logo_footer.png';
 import pdf from '../images/CV - Joanna Busmail - ESP.pdf';
+import { Link } from 'react-router-dom';
+import { Link as LinkScroll } from 'react-scroll/modules';
 
 const Header = () => {
   return (
@@ -9,22 +11,46 @@ const Header = () => {
       <nav>
         <ul className='header__menu'>
           <li>
-            <a title='About' className='header__menu--link' href='#about'>
+            {/*<a title='about' className='header__menu--link' href='/about'>
               About
-            </a>
+            </a>*/}
+            <LinkScroll
+              className='header__menu--link'
+              to='about'
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              About
+            </LinkScroll>
           </li>
           <li>
-            <a title='Projects' className='header__menu--link' href='#projects'>
+            <LinkScroll
+              className='header__menu--link'
+              to='projects'
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
               Projects
-            </a>
+            </LinkScroll>
           </li>
           <li>
             <img className='header__menu--img' src={LogoFooter} />
           </li>
           <li>
-            <a title='Contact' className='header__menu--link' href='#contact'>
+            <LinkScroll
+              className='header__menu--link'
+              to='contact'
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
               Contact
-            </a>
+            </LinkScroll>
           </li>
           <li>
             <a
