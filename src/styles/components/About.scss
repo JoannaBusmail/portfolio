@@ -35,16 +35,24 @@
       
         &--one{
         position: relative;
-        right: 1.95em;
+        right: 3.8em;
         bottom:0.8em;
         color: $cyan;
+        @media (min-width: 768px) {
+          right: 1.95em;
+          bottom:0.8em;
+        }
     }
 
         &--two{
         position: relative;
-        right: 2em;
+        right: 3.9em;
         bottom:2em;
         color:$pink;
+        @media (min-width: 768px) {
+          right: 2em;
+        bottom:2em;
+        }
        
     }
 
@@ -58,18 +66,21 @@
         &__subtitle{
         font-size: 1.5em;
         position: relative;
-        bottom: 2em;
+        bottom: 1.5em;
+        right: 2.5em;
 
         @media (min-width: 768px) {
          font-size: 2em;
+         right: 0.5em;
+        
         }
     }
     &__content{
        width: 300px;
         font-size: 1.2em;
         position: relative;
-        bottom: 1em;
-        left: 3.5em;
+        bottom: 0.5em;
+        left: -1.2em;
         color: $dark_blue;
         
        @media (min-width: 768px) {

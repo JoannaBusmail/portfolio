@@ -26,6 +26,7 @@ function App() {
       story: '',
     })
   );
+
   const handleInputForm = (dataInput) => {
     const inputValue = dataInput.value;
     const inputChanged = dataInput.name;
