@@ -5,6 +5,7 @@ border-style: none;
 .form__title{
     padding:30px;
     font-family: $font-about;
+    color: $dark_blue;
     font-size: 1.4em;
     font-weight: 700;
     text-align: center;
@@ -49,6 +50,7 @@ border-style: none;
         border-radius: 15px;
         margin: 5px auto 10px auto;
         font-family: $font-about;
+        color: $dark_blue;
         padding-left: 15px;
         border: none;
         @media (min-width: 768px) {
@@ -63,6 +65,8 @@ border-style: none;
     .textarea{
         height: 150px;
         padding-top: 15px;
+        font-family: $font-about;
+        color: $dark_blue;
       
     }
 

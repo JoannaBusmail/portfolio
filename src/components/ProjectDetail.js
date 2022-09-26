@@ -7,7 +7,7 @@ const ProjectDetail = (props) => {
   } else {
     return (
       <>
-        <article>
+        <article className='article_container'>
           <h3 className='detail__title'>{props.project.title} </h3>
           <div className='detail'>
             <div className='detail__image--container'>
@@ -31,25 +31,37 @@ const ProjectDetail = (props) => {
                 alt={props.project.title}
                 src={props.project.imageDetail4}
               />
-              <img
-                className='image detail__image--five'
-                alt={props.project.title}
-                src={props.project.imageDetail5}
-              />
             </div>
             <div className='detail__content'>
-              <p>{props.project.tools}</p>
-              <p>{props.project.description1}</p>
-              <p>{props.project.description2}</p>
-              <p>{props.project.description3}</p>
-              <p>{props.project.description4}</p>
-              <p>{props.project.description5}</p>
+              <p className='detail__content__text'>{props.project.tools}</p>
+              <p className='detail__content__text'>
+                {props.project.description1}
+              </p>
+              <p className='detail__content__text'>
+                {props.project.description2}
+              </p>
+              <p className='detail__content__text'>
+                {props.project.description3}
+              </p>
+              <p className='detail__content__text'>
+                {props.project.description4}
+              </p>
+              <p className='detail__content__text'>
+                {props.project.description5}
+              </p>
+              <a
+                className='detail__content__text--linkWeb'
+                title='Link to website'
+                href={props.project.link}
+              >
+                Visit Website
+              </a>
             </div>
           </div>
+          <Link className='go_back_btn' to='/'>
+            Go Back
+          </Link>
         </article>
-        <Link className='go_back_btn' to='/'>
-          Go Back
-        </Link>
       </>
     );
   }

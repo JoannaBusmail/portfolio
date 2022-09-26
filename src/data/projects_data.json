@@ -3,61 +3,115 @@
         "id": "1",
         "title": "Owen Wow",
         "image": "http://localhost:3000/assets/owen_ok.png",
-        "tools":"TOOLS: React.Js, HTML, CSS",
-        "description":""
+        "imageDetail1": "http://localhost:3000/assets/owenWow_1.png",
+        "imageDetail2": "http://localhost:3000/assets/owenWow_2.png",
+        "imageDetail3": "http://localhost:3000/assets/owenWow_3.png",
+        "imageDetail4": "http://localhost:3000/assets/owenWow_4.png",
+        "tools":"TOOLS: React.Js, Javascript, API Rest,  HTML, Sass",
+        "description1":"TYPE OF PROJECT: Own Project",
+        "description2":"WEB LAYOUT: Responsive - Mobile First",
+        "description3":"ABOUT THE PROJECT: Webpage about Owen's Willson Movies with diferent information. All the information is get by an Api call. Includes movie's title and year search. Includes a detail component of every movie including and audio and more details.",
+        "description4": "WEB FEATUERS: done by React.Js, React Hooks, React Routes, Javascript",
+        "link": "https://joannabusmail.github.io/owen-wow/"
     },
 
     {
         "id": "2",
-        "title": "Refactorización APC",
+        "title": "Refact APC and web server",
         "image": "http://localhost:3000/assets/refact_ok.png",
-        "tools":"TOOLS: React.Js, HTML, SASS, Node.Js",
-        "description": ""
+        "imageDetail1": "http://localhost:3000/assets/refact_1.png",
+        "imageDetail2": "http://localhost:3000/assets/refact_2.png",
+        "imageDetail3": "http://localhost:3000/assets/refact_3.png",
+        "imageDetail4": "http://localhost:3000/assets/refact_4.png",
+        "tools":"TOOLS: React.Js, HTML, SASS, Node.Js, Express.Js, SQL, API Rest",
+        "description1":"TYPE OF PROJECT: Team Project",
+        "description2":"WEB LAYOUT:Responsive - Mobile First",
+        "description3": " ABOUT THE PROJECT: Refact Javascript project into React.Js project keeping style and features. Comunication with server is done by Node.JS and database with SQLite",
+        "description5": "WORKING METHOD: Agile, Scrum",
+        "link": "http://awesome-cards-teamfive.herokuapp.com/"
+
     },
     
     {
         "id": "3",
         "title": "Awesome Profile Cards",
         "image": "http://localhost:3000/assets/awesome_ok.png",
+        "imageDetail1": "http://localhost:3000/assets/awesome_1.png",
+        "imageDetail2": "http://localhost:3000/assets/awesome_2.png",
+        "imageDetail3": "http://localhost:3000/assets/awesome_3.png",
+        "imageDetail4": "http://localhost:3000/assets/awesome_4.png",
         "tools": "TOOLS: Javascript, HTML, SASS",
-        "description1":"Team Project",
-        "description2":"Web Layout - Responsive - Mobile First",
-        "description3":"Web Features using Javascript.",
-        "description 4": "Creation of you own profile card. Drop-down menu to personalize styles of the card, form to complete with your personal information, share button to share your card in twitter ",
-        "description 5": "Agile method"
+        "description1":"TYPE OF PROJECT: Team Project",
+        "description2":"WEB LAYOUT:Responsive - Mobile First",
+        "description3": " ABOUT THE PROJECT: Creation of you own profile card. Drop-down menu to personalize styles of the card, form to complete with your personal information, share button to share your card in twitter. Reset button and Local Storage",
+        "description4":"WEB FEATUERS: done by Javascript.",
+        "description5": "WORKING METHOD: Agile, Scrum",
+        "link": "http://beta.adalab.es/project-promo-p-module-2-team-6//"
+
      
 
     },
     {
         "id": "4",
-        "title": "Retro Games",
-        "image": "http://localhost:3000/assets/games_ok.png",
-        "tools":"TOOLS: Javascript, HTML, CSS",
-        "description":   ""  
+        "title": "Memory Game",
+        "image": "http://localhost:3000/assets/memoryGame_ok.png",
+        "imageDetail1": "http://localhost:3000/assets/memoryGame_1.png",
+        "imageDetail2": "http://localhost:3000/assets/memoryGame_2.png",
+        "imageDetail3": "http://localhost:3000/assets/memoryGame_3.png",
+        "imageDetail4": "http://localhost:3000/assets/memoryGame_4.png",
+        "tools": "TOOLS: Javascript, HTML, SASS",
+        "description1":"TYPE OF PROJECT: Own Project",
+        "description2":"WEB LAYOUT:Responsive - Mobile First",
+        "description3": " ABOUT THE PROJECT: Creation of memory game. Includes Score, reset button, win or loose message",
+        "description4":"WEB FEATUERS: done by Javascript.",
+        "link": "https://joannabusmail.github.io/memory_game/"
     },
-
     {
         "id": "5",
+        "title": "Rock, scissors, paper",
+        "image": "http://localhost:3000/assets/rock_ok.png",
+        "imageDetail1": "http://localhost:3000/assets/rock_1.png",
+        "imageDetail2": "http://localhost:3000/assets/rock_2.png",
+        "imageDetail3": "http://localhost:3000/assets/rock_3.png",
+        "imageDetail4": "http://localhost:3000/assets/rock_4.png",
+        "tools":"TOOLS: Javascript, HTML, CSS",
+        "description1":"TYPE OF PROJECT: Own Project",
+        "description2":"WEB LAYOUT: Responsive - Mobile First",
+        "description3": " ABOUT THE PROJECT: Creation of rock, scissors, paper game. Includes different buttons to select player's choice, and diferent messages acording to the result. Message change of colors. Includes simple animation",
+        "description4":"WEB FEATUERS: done by Javascript.",
+        "link": "https://joannabusmail.github.io/Stone_Sccisors_Paper_Game/"
+    },
+
+
+    {
+        "id": "6",
         "title": "Duckies",
         "image": "http://localhost:3000/assets/duckies_ok.png",
         "imageDetail1": "http://localhost:3000/assets/duckies1.png",
         "imageDetail2": "http://localhost:3000/assets/duckies2.png",
         "imageDetail3": "http://localhost:3000/assets/duckies3.png",
         "imageDetail4": "http://localhost:3000/assets/duckies4.png",
-        "imageDetail5": "http://localhost:3000/assets/duckies5.png",
         "tools":"TOOLS: HTML, CSS, BEM",
-        "description1":"Team Project",
-        "description2":"Web Layout - Responsive - Mobile First",
-        "description3":"Web development introducing a Frontend developers team, and memeber description. Includes contact form to get in touch.",
-        "description 4": "Agile method"
+        "description1":"TYPE OF PROJECT: Team Project",
+        "description2":"WEB LAYOUT:Responsive - Mobile First",
+        "description3":"ABOUT THE PROJECT: Web development introducing a Frontend developers team, and memeber description. Includes contact form to get in touch.",
+        "description4": "WORKING METHOD: Agile, Scrum",
+        "link": "http://beta.adalab.es/project-promo-p-module-1-team-7/"
     },
  
     {
-        "id": "6",
+        "id": "7",
         "title": "Shop Shop",
         "image": "http://localhost:3000/assets/buy_ok.png",
-        "tools":"TOOLS: HTML, CSS",
-        "description": ""
+        "imageDetail1": "http://localhost:3000/assets/shop_1.png",
+        "imageDetail2": "http://localhost:3000/assets/shop_2.png",
+        "imageDetail3": "http://localhost:3000/assets/shop_3.png",
+        "imageDetail4": "http://localhost:3000/assets/shop_4.png",
+        "tools":"TOOLS: HTML, CSS, BEM",
+        "description1":"TYPE OF PROJECT: Own Project",
+        "description2":"WEB LAYOUT: Responsive - Mobile First",
+        "description3":"ABOUT THE PROJECT: Landingpage of an e-commerce to practice HTML, CSS and responsive design. Elements re-distribute acording to space (mobile, tablet, desktop). Includes fixed menu.",
+        "link": "https://joannabusmail.github.io/modulo-1-evaluacion-final-JoannaBusmail/"
     }
   
 ]

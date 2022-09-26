@@ -16,7 +16,7 @@ const ListProjects = (props) => {
             />
             <p className='item item_tools'>{props.projects.tools}</p>
             <Link className='link' to={`/project/${props.projects.id}`}>
-              <button className='item_btn btn-grad'>More Info</button>
+              <button className='item_btn'>More Info</button>
             </Link>
           </article>
         </li>
