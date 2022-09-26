@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "./static/css/main.426a9773.css",
+    "main.js": "./static/js/main.dbae0b97.js",
+    "static/media/background2.png": "./static/media/background2.a7c3d53354ef3733f057.png",
+    "static/media/CV - Joanna Busmail - ESP.pdf": "./static/media/CV - Joanna Busmail - ESP.163182fa8af3195c1fbc.pdf",
+    "static/media/logo_footer.png": "./static/media/logo_footer.e5b19b52af52d8fe5a53.png",
+    "static/media/Logo.png": "./static/media/Logo.ef20c2c5e82935272987.png",
+    "index.html": "./index.html",
+    "main.426a9773.css.map": "./static/css/main.426a9773.css.map",
+    "main.dbae0b97.js.map": "./static/js/main.dbae0b97.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.426a9773.css",
+    "static/js/main.dbae0b97.js"
+  ]
+}
