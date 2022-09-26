@@ -64,7 +64,7 @@ const Form = (props) => {
             </div>
             <div className='input__container'>
               <label className='label' htmlFor='story'>
-                Tell me!
+                Make my day and tell me anything!
               </label>
 
               <textarea

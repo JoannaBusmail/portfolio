@@ -20,8 +20,7 @@ border-style: none;
     margin: 20px auto 60px auto;
     padding:20px;
     background-color: $dark_blue;  
-    box-shadow: 2px 4px 8px 0 $cyan, 0 2px 4px 0 #ffff;;
-    //background-image: linear-gradient(to right, $dark_blue 0%,  $pink  100%);
+    box-shadow: 0 1px 7px 0 #7b878e, 0 1px 3px 0 #ffff;
     @media (min-width: 768px) {
       max-width: 500px;
       }
@@ -78,10 +77,13 @@ border-style: none;
         font-family: $font-about;
         font-weight: 700;
         font-size: 1em;
-        color:#ffff;
+        color:$pink;
         border:none;
         border-radius: 15px;
-        background-image: linear-gradient(to right, $pink 0%,  $cyan  100%);
+        border: 2px solid $pink;
+        cursor: pointer;
+        //background-image: linear-gradient(to right, $pink 0%,  $cyan  100%);
+
     }
 
 }
