@@ -23,15 +23,15 @@
 }
         .filterInput_value{
          width: 200px;
-         height: 25px;
+         height: 30px;
          border-radius: 15px;
          padding: 10px;
          font-family: $font-about;
          border: none;
          position: relative;
          top: -3px;
-     
-         box-shadow: 0 1px 7px 0 #99a8b3, 0 1px 3px 0 #ffff;
+         border: 2px solid $dark_blue;
+         //box-shadow: 0 1px 7px 0 #7b878e, 0 1px 3px 0 #ffff;
 
 }
 }
