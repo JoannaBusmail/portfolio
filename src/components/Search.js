@@ -14,7 +14,7 @@ const Search = (props) => {
           <div className='input__container'>
             <label className='filterInput_title' htmlFor=''>
               {' '}
-              Search by Tool:{' '}
+              Search by Technology:{' '}
             </label>
             <input
               className='filterInput_value'
